@@ -5,6 +5,8 @@ use warnings;
 
 use base 'XML::Spew';
 
+our $VERSION = '0.01';
+
 __PACKAGE__->_tags( 
                     qw(html
                        head

@@ -3,7 +3,7 @@ package XML::Spew;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp;
 
@@ -167,6 +167,8 @@ that your tags make sense.
 =head1 INTERFACE
 
 XML::Spew is a base class. To make any use of it, you will need to write a subclass.
+An example class, L<XML::Spew::XHTML|XML::Spew::XHTML>, is included in this distribution.
+
 First, declare your package and make it a subclass of XML::Spew.
 
     package What::Ever;
